@@ -3,7 +3,7 @@
 CREATE TABLE PERSONS (
     name varchar,
     surname varchar,
-    age varchar,
+    age number,
   	phone_number varchar,
   	city_of_living varchar,
   	PRIMARY KEY(name, surname, age)
